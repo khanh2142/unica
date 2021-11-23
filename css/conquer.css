@@ -1,0 +1,76 @@
+.conquer {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.conquer h2 {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.conquer__first {
+  padding-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.conquer-container {
+  width: 48%;
+  border-radius: 10px;
+  overflow: hidden;
+  height: 270px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.conquer-container:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(29 128 186);
+}
+
+.conquer-container::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  opacity: 0.3;
+}
+
+.conquer-item {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  height: 50px;
+}
+
+.conquer-icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conquer-content {
+  margin-left: 5px;
+}
+
+.conquer-title {
+  color: #fff;
+}
+
+.conquer-course {
+  color: #fff;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.more-conquer:hover {
+  background-color: #3cb878 !important;
+}

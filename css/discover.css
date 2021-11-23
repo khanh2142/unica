@@ -1,0 +1,44 @@
+.discover {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.discover h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.discover-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.discover-item {
+  width: 174px;
+  height: 76px;
+  display: flex;
+  border-radius: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  margin-right: 15px;
+  margin-top: 15px;
+}
+
+.discover-item:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.discover-icon {
+  padding-top: 5px;
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.discover-title {
+  font-size: 15px;
+  color: rgba(0, 0, 0, 0.8);
+  text-align: center;
+}

@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unica - Học Online Ngay !</title>
+
+    <!-- Import CSS -->
+
+    <link rel="stylesheet" href="./css/rule.css" />
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/product.css" />
+    <link rel="stylesheet" href="./css/divide.css" />
+    <link rel="stylesheet" href="./css/conquer.css" />
+    <link rel="stylesheet" href="./css/discover.css" />
+    <link rel="stylesheet" href="./css/reason.css" />
+    <link rel="stylesheet" href="./css/teacher.css" />
+    <link rel="stylesheet" href="./css/solution.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./slick/slick.css" />
+    <link rel="stylesheet" href="./slick/slick-theme.css" />
+
+    <!-- Import Bootstrap -->
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!-- Import Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Header -->
+
+    <div class="container-fluid header-bar">
+      <div class="container">
+        <div class="row header-content">
+          <div class="logo">
+            <a href="index.html" class="logo-link"></a>
+          </div>
+          <div class="search">
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Tìm khóa học, giảng viên"
+            />
+            <button class="search-button">
+              <i class="fas fa-search search-icon"></i>
+            </button>
+          </div>
+          <div class="cart">
+            <a class="active-course" href="https://unica.vn/kichhoat">
+              Kích hoạt khóa học
+              <i class="fas fa-unlock-alt lock-icon"></i>
+            </a>
+            <a href="https://unica.vn/gio-hang" class="cart-link">
+              <i class="fas fa-shopping-cart cart-icon"></i>
+            </a>
+          </div>
+          <div class="authentication">
+            <a class="login" href="https://unica.vn/login" id="login"
+              >Đăng nhập</a
+            >
+            <a class="login" href="https://unica.vn/register" id="signup"
+              >Đăng ký</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Main -->
+
+    <div class="container-fluid" style="background-color: #f5f5f5">
+      <div class="container main">
+        <!-- Menu and carousel -->
+
+        <div class="row">
+          <!-- Menu -->
+          <div class="col-md-3 menu__primary" id="menu-area"></div>
+
+          <!-- Carousel -->
+          <div class="col-md-9 carousel-area">
+            <div class="my-carousel">
+              <img src="./images/banner1.jpg" alt="" class="my-carousel-img" />
+              <img src="./images/banner2.jpg" alt="" class="my-carousel-img" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Product -->
+
+        <div class="row product">
+          <div class="product__header">
+            <h4 class="product__header-title">TOP BÁN CHẠY</h4>
+            <a
+              href="https://unica.vn/khoa-hoc-noi-bat?boxcode=sell-course-most"
+              class="product__header-all"
+              >Xem thêm <i class="fas fa-angle-double-right"></i
+            ></a>
+          </div>
+          <div class="product__main" id="topsell"></div>
+        </div>
+
+        <div class="row product">
+          <div class="product__header">
+            <h4 class="product__header-title">SIÊU ƯU ĐÃI HÔM NAY</h4>
+            <a
+              href="https://unica.vn/donggia?boxcode=promotion-home"
+              class="product__header-all"
+              >Xem thêm <i class="fas fa-angle-double-right"></i
+            ></a>
+          </div>
+          <div class="product__main" id="offerToday"></div>
+        </div>
+
+        <div class="row divide">
+          <div class="dc">
+            <div class="product__header">
+              <h4 class="product__header-title">Mới ra mắt</h4>
+              <a
+                href="https://unica.vn/new?boxcode=new-views-vip"
+                class="product__header-all"
+                >Xem thêm <i class="fas fa-angle-double-right"></i
+              ></a>
+            </div>
+            <div class="dc-slider" id="slider1"></div>
+          </div>
+          <div class="dc">
+            <div class="product__header">
+              <h4 class="product__header-title">xem nhiều</h4>
+            </div>
+            <div class="dc-slider" id="slider2"></div>
+          </div>
+          <div class="dc">
+            <div class="product__header">
+              <h4 class="product__header-title">khóa học vip</h4>
+            </div>
+            <div class="dc-slider" id="slider3"></div>
+          </div>
+        </div>
+
+        <div class="row product">
+          <div class="product__header">
+            <h4 class="product__header-title">kinh doanh - khởi nghiệp</h4>
+          </div>
+          <div class="product__main" id="startup"></div>
+        </div>
+
+        <div class="row conquer">
+          <h2>chinh phục mục tiêu của bạn</h2>
+          <div class="conquer__first" id="conquer-first"></div>
+          <div class="conquer__first" id="conquer-second"></div>
+          <div
+            style="
+              display: flex;
+              justify-content: center;
+              width: 100%;
+              padding-top: 20px;
+            "
+          >
+            <a
+              href="https://unica.vn/combo?boxcode=combo-home"
+              class="more-conquer"
+              style="
+                padding: 10px;
+                text-transform: uppercase;
+                background-color: #428bca;
+                border-radius: 5px;
+                color: #fff !important;
+              "
+              >xem tiếp</a
+            >
+          </div>
+        </div>
+
+        <div class="row discover">
+          <h3>Bạn chưa tìm thấy khóa học mình quan tâm ?</h3>
+          <h3>Unica có hơn 2.000 khóa học đang chờ bạn khám phá</h3>
+          <div class="discover-list" id="discover-list"></div>
+        </div>
+
+        <div class="row reason">
+          <h3>3 LÝ DO BẠN NÊN HỌC ONLINE TẠI UNICA</h3>
+          <div class="reason-container" id="reason-container"></div>
+        </div>
+
+        <div class="row teacher">
+          <h2>giảng viên tiêu biểu</h2>
+          <div class="teacher-container" id="teacher-container"></div>
+        </div>
+
+        <div class="row solution">
+          <h3>các giải pháp khác từ unica</h3>
+          <div class="solution-container" id="solution-container"></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+
+    <div class="container-fluid footer-bar">
+      <div class="footer-banner">
+        <h3>Trở thành Giảng viên Unica</h3>
+        <p>Hơn 500 giảng viên đã có khóa học trên Unica</p>
+        <a href="https://unica.vn/teacher">đăng ký ngay</a>
+      </div>
+      <div class="footer-content">
+        <div class="container footer-container">
+          <div class="row">
+            <div class="col-3 footer-col" id="footer1">
+              <div class="footer-title">
+                <a href="./index.html">
+                  <img
+                    src="https://unica.vn/media/images_v2018/logo-unica.png"
+                    alt=""
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="col-3 footer-col" id="footer2">
+              <div class="footer-title">Về Unica</div>
+            </div>
+            <div class="col-3 footer-col" id="footer3">
+              <div class="footer-title">Hợp tác liên kết</div>
+            </div>
+            <div class="col-3 footer-col">
+              <div class="footer-title">Tải app Unica</div>
+              <div
+                class="footer-item"
+                style="flex-direction: column; height: 120px"
+                id="footer4"
+              ></div>
+              <div class="footer-title">Kết nối với Unica</div>
+              <div class="footer-social" id="footer5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-last">
+        <div class="container">
+          <div class="row footer-own">
+            <div class="col-8 own-item">
+              <p>
+                © Công ty cổ phần đào tạo trực tuyến Unica - ĐKKD: 0369 698 501
+                - Khóa học trực tuyến dành cho người đi làm
+              </p>
+            </div>
+            <div class="col-4 own-item">
+              <a
+                href="http://online.gov.vn/HomePage/WebsiteDisplay.aspx?DocId=27171"
+              >
+                <img src="./images/registed.png" alt="" />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Import divide number to . -->
+    <script src="./js/divideNum.js"></script>
+
+    <!-- Create element first -->
+    <script src="./js/dcSlicker.js"></script>
+    <script src="./js/dcSlicker2.js"></script>
+    <script src="./js/dcSlicker3.js"></script>
+
+    <!-- Import bootstrap -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="./slick/slick.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".my-carousel").slick({
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          autoplay: true,
+          autoplaySpeed: 500,
+        });
+      });
+
+      $(".dc-slider").slick();
+    </script>
+
+    <!-- Import menu -->
+    <script src="./js/menu.js"></script>
+
+    <!-- Handle product -->
+    <script src="./js/topsell.js"></script>
+    <script src="./js/offerToday.js"></script>
+    <script src="./js/startup.js"></script>
+    <script src="./js/conquer.js"></script>
+    <script src="./js/conquer2.js"></script>
+    <script src="./js/discover.js"></script>
+    <script src="./js/reason.js"></script>
+    <script src="./js/teacher.js"></script>
+    <script src="./js/solution.js"></script>
+
+    <!-- Import footer -->
+    <script src="./js/footerCol1.js"></script>
+    <script src="./js/footerCol2.js"></script>
+    <script src="./js/footerCol3.js"></script>
+    <script src="./js/footerCol4.js"></script>
+  </body>
+</html>

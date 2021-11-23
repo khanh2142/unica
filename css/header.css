@@ -1,0 +1,117 @@
+body {
+  position: relative;
+}
+
+.header-bar {
+  padding-top: 10px;
+  position: fixed;
+  height: 62px;
+  background-color: #fff;
+  z-index: 999999;
+}
+
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Logo */
+
+.logo-link {
+  display: block;
+  background: url("https://unica.vn/media/img/logo-unica.svg") no-repeat left
+    top;
+  width: 138px;
+  height: 33px;
+}
+
+/* Search */
+.search {
+  display: flex;
+  align-items: center;
+  width: 400px;
+  border-radius: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.search-input {
+  padding-left: 15px;
+  width: 90%;
+  height: 40px;
+  border-radius: 25px;
+  border: transparent;
+  font-size: 14px;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-button {
+  width: 10%;
+  background-color: transparent;
+  border: transparent;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.search-button:focus {
+  outline: none;
+}
+
+.search-icon {
+  font-size: 18px;
+}
+
+.search-icon:hover {
+  color: red;
+}
+
+/* Cart and active course */
+
+.cart {
+  width: 240px;
+  display: flex;
+  align-items: center;
+}
+
+.active-course {
+  padding: 8px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #000;
+  border-radius: 5px;
+}
+
+.active-course:hover {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.cart-link {
+  width: 20%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-icon {
+  font-size: 20px;
+  color: #ec5252;
+}
+
+/* Login and sign up */
+
+.login {
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  border: 1px solid #000;
+}
+
+.login:hover {
+  background-color: #f26c50;
+  border: 1px solid transparent;
+  color: #fff !important;
+}

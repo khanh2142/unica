@@ -1,0 +1,35 @@
+.reason {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.reason h3 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.reason-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reason-item {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reason-title {
+  font-size: 22px;
+  font-weight: 600;
+  padding-top: 5px;
+}
+
+.reason-content {
+  font-size: 14px;
+  line-height: 0;
+  color: rgba(0, 0, 0, 0.6);
+}

@@ -1,0 +1,121 @@
+.product {
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.product__header {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.product__header-all {
+  color: #1d80ba !important;
+}
+
+.product__header-title {
+  text-transform: uppercase;
+}
+
+.product__main {
+  display: flex;
+  flex-wrap: wrap !important;
+  justify-content: space-between;
+}
+
+.product__main-item {
+  margin-bottom: 10px;
+  width: 270px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  border-radius: 5px !important;
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+}
+
+.product__main-item:hover {
+  box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(29 128 186);
+}
+
+.product__main-img {
+  height: 134px !important;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  z-index: 100;
+}
+
+.product__main-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5px 10px 0px 10px;
+}
+
+.product__main-desc {
+  font-weight: 600;
+  font-size: 15px !important;
+}
+
+.product__main-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__main-about {
+  line-height: 0;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.product__main-author {
+  text-transform: capitalize;
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.product__main-rootprice {
+  font-size: 14px !important;
+  color: rgba(0, 0, 0, 0.6);
+  text-decoration: line-through;
+}
+
+.product__main-primary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.product__main-rate {
+  display: flex;
+  align-items: baseline;
+}
+
+.fa-star {
+  color: #eb8a2f;
+}
+
+.product__main-saleprice {
+  color: #ca3e68;
+}
+
+.product__main-sale {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background-color: #f67052;
+  width: 50px;
+  height: 30px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
