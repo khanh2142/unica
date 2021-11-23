@@ -13,7 +13,7 @@ const footer1 = [
   },
   {
     icon: `<i class="fas fa-envelope"></i>`,
-    content: "k2142@gmail.com",
+    content: "k2142a@gmail.com",
   },
   {
     icon: `<i class="fab fa-github"></i>`,
