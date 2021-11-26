@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Unica - Đăng nhập</title>
+    <title>Unica - Đăng ký</title>
     <link rel="stylesheet" href="../css/rule.css" />
     <link rel="stylesheet" href="../css/login.css" />
     <link
@@ -19,23 +19,35 @@
   />
   </head>
   <body>
-    <div class="login-container">
+    <div class="login-container" >
       <img src="../images/logo2.png" alt="" style="padding-bottom: 25px" />
-      <form action="" class="login-form">
-        <h3>Đăng nhập</h3>
+      <form action="" class="login-form" style="height: 550px !important;">
+        <h3>Đăng ký</h3>
         <input
           type="text"
           name="login"
           id="user-login"
-          placeholder="Nhập số điện thoại hoặc email"
+          placeholder="Họ và tên"
         />
+        <input
+        type="text"
+        name="login"
+        id="user-login"
+        placeholder="Email"
+      />
+      <input
+      type="text"
+      name="login"
+      id="user-login"
+      placeholder="Số điện thoại"
+    />
         <input
         type="password"
         name="login"
         id="user-pass"
-        placeholder="Nhập mật khẩu"
+        placeholder="Mật khẩu, lớn hơn 6 ký tự"
       />
-      <button class="btn-login">Đăng nhập</button>
+      <button class="btn-login">Đăng ký</button>
       <p>Hoặc đăng nhập với</p>
       <div class="social">
           <button class="btn-social" style="background-color: #e64839;">
@@ -47,8 +59,7 @@
             <h6>Facebook</h6>
           </button>
       </div>
-      <p>Bạn chưa có tài khoản? <a href="./signup.html">Đăng ký mới</a></p>
-      <a href="./forgot.html">Quên mật khẩu ?</a>
+      <p>Bạn đã có tài khoản? <a href="./login.html">Đăng nhập</a></p>
       </form>
 
   </form>
